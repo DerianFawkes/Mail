@@ -3,11 +3,11 @@
 int main()
 {
 	setlocale(0, "rus");
-	Mail mail1("Ξςοπΰβλενθε N1");
+	Mail mail1("ΓΓ²Γ―Γ°Γ ΓΆΓ«Γ¥Γ­Γ¨Γ¥ N1");
 	mail1.setState(new Shipped);
 	mail1.setState(new ArrivedForSorting);
 	mail1.setState(new ShippedFromSorting);
-	mail1.setState(new Lost);
+	//mail1.setState(new Lost);
 
 	system("pause");
 	return 0;
